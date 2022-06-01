@@ -3,13 +3,20 @@
 
 <suite name="smoke test">
 
-    <parameter name="url" value="https://www.walmart.com/"></parameter>
+    <parameter name="url" value="https://www.ebay.com/"></parameter>
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="os" value="mac"></parameter>
 
     <test name="Home Test">
         <classes>
-            <class name="djafarwalmart.HomePage"></class>
+            <class name="djafarebay.HomePage"></class>
+
+        </classes>
+    </test>
+
+    <test name="Search Test">
+        <classes>
+            <class name="djafarebay.SearchItems"></class>
         </classes>
     </test>
 </suite>
