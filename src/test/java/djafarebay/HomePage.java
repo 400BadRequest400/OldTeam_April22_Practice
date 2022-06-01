@@ -1,6 +1,6 @@
-package djafarwalmart;
+package djafarebay;
 
-import base.CommonAPI;
+import main.CommonAPI;
 import org.testng.annotations.Test;
 
 public class HomePage extends CommonAPI {
