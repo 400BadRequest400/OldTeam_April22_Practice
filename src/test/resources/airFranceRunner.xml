@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="smoke test">
+
+    <parameter name="url" value="https://wwws.airfrance.us/"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="os" value="mac"></parameter>
+
+<!--    <test name="cartButton Test">-->
+<!--        <classes>-->
+<!--            <class name="airFranceWinsen.HomePage"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="bookTicket Test">
+        <classes>
+            <class name="airFranceWinsen.BookOneWay"></class>
+        </classes>
+    </test>
+
+</suite>

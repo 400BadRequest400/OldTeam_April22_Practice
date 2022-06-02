@@ -55,10 +55,10 @@ public class CommonAPI {
         driver.get(url);
     }
 
-    @AfterMethod
-    public void tearDown(){
-        driver.close();
-    }
+//    @AfterMethod
+//    public void tearDown(){
+//        driver.close();
+//    }
 
     public String getPageTitle(){
         return driver.getTitle();

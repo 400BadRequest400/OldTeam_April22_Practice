@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="smoke test">
+
+    <parameter name="url" value="https://www.target.com/"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="os" value="mac"></parameter>
+
+<!--    <test name="Home Test">-->
+<!--        <classes>-->
+<!--            <class name="target.HomePage"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Search Test">-->
+<!--        <classes>-->
+<!--            <class name="target.SearchTest"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="cartButton Test">-->
+<!--        <classes>-->
+<!--            <class name="target.CartButtonClick"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="cartButton Test">-->
+<!--        <classes>-->
+<!--            <class name="target.DealsButton"></class>-->
+<!--        </classes>-->
+<!-- </test>-->
+<!--    <test name="create account Test">-->
+<!--        <classes>-->
+<!--            <class name="target.ScrollToFooter"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="create account creation">
+        <classes>
+            <class name="target.CreateAccount"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="smoke test">
+
+    <parameter name="url" value="https://www.amazon.com/"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="os" value="mac"></parameter>
+
+
+    <test name="cartButton Test">
+        <classes>
+            <class name=""></class>
+        </classes>
+    </test>
+</suite>
