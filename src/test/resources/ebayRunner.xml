@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="smoke test">
+
+    <parameter name="url" value="https://www.ebay.com/"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="os" value="mac"></parameter>
+
+    <test name="Home Test">
+         <classes>
+<!--                    <class name="ebay.HomePage"></class>-->
+         </classes>
+    </test>
+
+    <test name="Search Test">
+         <classes>
+<!--                    <class name="ebay.SearchItems"></class>-->
+         </classes>
+    </test>
+
+    <test name="BrokenLinks Test">
+        <classes>
+<!--            <class name="ebay.BrokenLinksTest"></class>-->
+        </classes>
+    </test>
+
+    <test name="ScrollDown Test">
+        <classes>
+<!--            <class name="ebay.ScrollDownSelect"></class>-->
+        </classes>
+    </test>
+
+    <test name="MouseScroll Test">
+        <classes>
+<!--            <class name="ebay.MouseScroll"></class>-->
+        </classes>
+    </test>
+
+    <test name="MouseHover Test">
+        <classes>
+<!--            <class name="ebay.MouseHover"></class>-->
+        </classes>
+    </test>
+
+    <test name="ReadExcelSheet Test">
+        <classes>
+            <class name="ebay.ReadExcelSheet"></class>
+        </classes>
+    </test>
+
+</suite>
+
