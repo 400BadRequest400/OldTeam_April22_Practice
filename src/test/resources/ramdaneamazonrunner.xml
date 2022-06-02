@@ -7,14 +7,39 @@
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="os" value="mac"></parameter>
 
-    <test name="Home Test">
+    <test name="HomePage Test">
         <classes>
-            <class name="ramdaneamazon.HomePage"></class>
+<!--            <class name="ramdaneamazon.HomePage"></class>-->
         </classes>
     </test>
     <test name="search Test">
         <classes>
-            <class name="ramdaneamazon.SearchItems"></class>
+<!--            <class name="ramdaneamazon.SearchItems"></class>-->
+        </classes>
+    </test>
+    <test name="create account Test">
+        <classes>
+<!--            <class name="ramdaneamazon.CreateAccount"></class>-->
+        </classes>
+    </test>
+    <test name="dropdown test">
+        <classes>
+            <class name="ramdaneamazon.DropdownTest"></class>
+        </classes>
+    </test>
+    <test name="registry test">
+        <classes>
+<!--            <class name="ramdaneamazon.RegistryTest"></class>-->
+        </classes>
+    </test>
+    <test name="scroll">
+        <classes>
+<!--            <class name="ramdaneamazon.MouseScroll"></class>-->
+        </classes>
+    </test>
+    <test name="signOut test">
+        <classes>
+<!--            <class name="ramdaneamazon.AmazonSignOut"></class>-->
         </classes>
     </test>
 </suite>
