@@ -3,55 +3,55 @@
 
 <suite name="smoke test">
 
-    <parameter name="url" value="https://www.target.com/"></parameter>
+    <parameter name="url" value="https://www.targetwinsen.com/"></parameter>
     <parameter name="browser" value="chrome"></parameter>
     <parameter name="os" value="mac"></parameter>
 
 <!--    <test name="Home Test">-->
 <!--        <classes>-->
-<!--            <class name="target.HomePage"></class>-->
+<!--            <class name="targetwinsen.HomePage"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
 
 <!--    <test name="Search Test">-->
 <!--        <classes>-->
-<!--            <class name="target.SearchTest"></class>-->
+<!--            <class name="targetwinsen.SearchTest"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
 
 <!--    <test name="cartButton Test">-->
 <!--        <classes>-->
-<!--            <class name="target.CartButtonClick"></class>-->
+<!--            <class name="targetwinsen.CartButtonClick"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
 <!--    <test name="cartButton Test">-->
 <!--        <classes>-->
-<!--            <class name="target.DealsButton"></class>-->
+<!--            <class name="targetwinsen.DealsButton"></class>-->
 <!--        </classes>-->
 <!-- </test>-->
 <!--    <test name="create account Test">-->
 <!--        <classes>-->
-<!--            <class name="target.ScrollToFooter"></class>-->
+<!--            <class name="targetwinsen.ScrollToFooter"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
 <!--    <test name="create account creation">-->
 <!--        <classes>-->
-<!--            <class name="target.CreateAccount"></class>-->
+<!--            <class name="targetwinsen.CreateAccount"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
 <!--    <test name="AlertHandle">-->
 <!--        <classes>-->
-<!--            <class name="target.HandleAlert"></class>-->
+<!--            <class name="targetwinsen.HandleAlert"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
 <!--    <test name="Home Test">-->
 <!--        <classes>-->
-<!--            <class name="target.OpenInNewTab"></class>-->
+<!--            <class name="targetwinsen.OpenInNewTab"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
     <test name="Home Test2">
         <classes>
-            <class name="target.TakeScreenShotTest"></class>
+            <class name="targetwinsen.TakeScreenShotTest"></class>
         </classes>
     </test>
 
