@@ -1,6 +1,6 @@
 package ramdaneamazon;
 
-import main.CommonAPI;
+import base.CommonAPI;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -22,9 +22,19 @@ public class CreateAccount extends CommonAPI {
         waitFor(2);
         click("//input[@id='continue']");
         waitFor(2);
+
+        //hard assertion
         String expectedResult = "Amazon Registration";
         String actualResult = getPageTitle();
         Assert.assertEquals(expectedResult,actualResult);
+
+        //soft assertion
+        if (expectedResult.equalsIgnoreCase(actualResult)){
+            System.out.println("the test passed");
+        }else {
+            System.out.println("test failed");
+        }
+
 
     }
 

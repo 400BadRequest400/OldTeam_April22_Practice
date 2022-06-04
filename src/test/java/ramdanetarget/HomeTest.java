@@ -1,6 +1,6 @@
 package ramdanetarget;
 
-import main.CommonAPI;
+import base.CommonAPI;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

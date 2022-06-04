@@ -14,7 +14,12 @@
     </test>
     <test name="sign in">
         <classes>
-            <class name="ramdanetarget.SignInTest"></class>
+<!--            <class name="ramdanetarget.SignInTest"></class>-->
+        </classes>
+    </test>
+    <test name="popUp windows">
+        <classes>
+            <class name="ramdanetarget.PopUpHandlingTest"></class>
         </classes>
     </test>
 </suite>

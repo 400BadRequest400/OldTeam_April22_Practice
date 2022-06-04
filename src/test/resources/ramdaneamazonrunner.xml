@@ -42,4 +42,26 @@
 <!--            <class name="ramdaneamazon.AmazonSignOut"></class>-->
         </classes>
     </test>
+    <test name="brokenLinks">
+        <classes>
+<!--                        <class name="ramdaneamazon.BrokenLinksTest"></class>-->
+        </classes>
+    </test>
+    <test name="shopping cart">
+        <classes>
+<!--            <class name="ramdaneamazon.AddToCartTest"></class>-->
+        </classes>
+    </test>
+    <test name="navigate back">
+        <classes>
+<!--                        <class name="ramdaneamazon.NavigateBack"></class>-->
+        </classes>
+    </test>
+    <test name="open new window">
+        <classes>
+<!--            <class name="ramdaneamazon.OpenNewWindow"></class>-->
+        </classes>
+    </test>
+
+
 </suite>

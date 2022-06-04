@@ -1,6 +1,6 @@
 package ramdaneamazon;
 
-import main.CommonAPI;
+import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;

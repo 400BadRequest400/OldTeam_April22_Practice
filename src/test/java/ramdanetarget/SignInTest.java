@@ -1,8 +1,7 @@
 package ramdanetarget;
 
-import main.CommonAPI;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
+import base.CommonAPI;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SignInTest extends CommonAPI {
@@ -33,7 +32,12 @@ public class SignInTest extends CommonAPI {
         click("//*[@id=\"__next\"]/div[2]/div/div[1]/div/div[2]/form/div[8]/label/div");
         waitFor(2);
 
-        click("");
+        click("//span[contains(text(),'Create account')]");
+        waitFor(2);
+
+        String expectedResult = "Login: Target";
+        String actualResult = getPageTitle();
+        Assert.assertEquals(expectedResult,actualResult);
 
 
 

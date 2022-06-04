@@ -1,6 +1,6 @@
 package djafarebay;
 
-import main.CommonAPI;
+import base.CommonAPI;
 import org.testng.annotations.Test;
 
 public class HomePage extends CommonAPI {

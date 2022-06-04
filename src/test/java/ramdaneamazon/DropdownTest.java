@@ -1,6 +1,6 @@
 package ramdaneamazon;
 
-import main.CommonAPI;
+import base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
