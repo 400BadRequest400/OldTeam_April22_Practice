@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="smoke test">
+
+    <parameter name="url" value="https://www.apple.com/"></parameter>
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="os" value="mac"></parameter>
+
+<!--    <test name="Home Page Test">-->
+<!--        <classes>-->
+<!--            <class name="apple.HomePage"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Iphone">-->
+<!--        <classes>-->
+<!--            <class name="apple.Iphone"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="IphoneAccessories">-->
+<!--        <classes>-->
+<!--            <class name="apple.IphoneAccessories"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="StoreNearMe">-->
+<!--        <classes>-->
+<!--            <class name="apple.StoreNearMe"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="SearchAirTag">-->
+<!--        <classes>-->
+<!--            <class name="apple.SearchAirTag"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="CarrerOpportunities">-->
+<!--        <classes>-->
+<!--            <class name="apple.CarrerOpportunities"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="SignIn">-->
+<!--        <classes>-->
+<!--            <class name="apple.SignIn"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="AppleYoutubeChannel">-->
+<!--        <classes>-->
+<!--            <class name="apple.AppleYoutubeChannel"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="AppleTwitterPage">
+        <classes>
+            <class name="apple.AppleTwitterPage"></class>
+        </classes>
+    </test>
+
+
+</suite>
