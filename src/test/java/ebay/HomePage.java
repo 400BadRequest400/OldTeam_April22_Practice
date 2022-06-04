@@ -15,4 +15,5 @@ public class HomePage extends CommonAPI {
         String actualPageTitle = "Electronics, Cars, Fashion, Collectibles & More | eBay";
         Assert.assertEquals(actualPageTitle, getPageTitle());
     }
+
 }

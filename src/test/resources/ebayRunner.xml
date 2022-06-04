@@ -9,13 +9,13 @@
 
     <test name="Home Test">
          <classes>
-<!--                    <class name="ebay.HomePage"></class>-->
+                    <class name="ebay.HomePage"></class>
          </classes>
     </test>
 
     <test name="Search Test">
          <classes>
-<!--                    <class name="ebay.SearchItems"></class>-->
+                    <class name="ebay.SearchItems"></class>
          </classes>
     </test>
 
@@ -27,19 +27,19 @@
 
     <test name="ScrollDown Test">
         <classes>
-<!--            <class name="ebay.ScrollDownSelect"></class>-->
+            <class name="ebay.ScrollDownSelect"></class>
         </classes>
     </test>
 
     <test name="MouseScroll Test">
         <classes>
-<!--            <class name="ebay.MouseScroll"></class>-->
+            <class name="ebay.MouseScroll"></class>
         </classes>
     </test>
 
     <test name="MouseHover Test">
         <classes>
-<!--            <class name="ebay.MouseHover"></class>-->
+            <class name="ebay.MouseHover"></class>
         </classes>
     </test>
 
@@ -49,5 +49,28 @@
         </classes>
     </test>
 
+    <test name="Main Window Hanling Test">
+        <classes>
+            <class name="ebay.NewWindowTabFeatureMain"></class>
+        </classes>
+    </test>
+
+    <test name="Window Hanling Test">
+        <classes>
+            <class name="ebay.NewWindowTabFeature"></class>
+        </classes>
+    </test>
+
+    <test name="ScrollDownList Test">
+        <classes>
+            <class name="ebay.ScrollDownList"></class>
+        </classes>
+    </test>
+
+    <test name="LinkText Test">
+        <classes>
+                        <class name="ebay.LinkTextClass"></class>
+        </classes>
+    </test>
 </suite>
 
