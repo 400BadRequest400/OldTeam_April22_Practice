@@ -34,9 +34,26 @@
 <!--            <class name="target.ScrollToFooter"></class>-->
 <!--        </classes>-->
 <!--    </test>-->
-    <test name="create account creation">
+<!--    <test name="create account creation">-->
+<!--        <classes>-->
+<!--            <class name="target.CreateAccount"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="AlertHandle">-->
+<!--        <classes>-->
+<!--            <class name="target.HandleAlert"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Home Test">-->
+<!--        <classes>-->
+<!--            <class name="target.OpenInNewTab"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="Home Test2">
         <classes>
-            <class name="target.CreateAccount"></class>
+            <class name="target.TakeScreenShotTest"></class>
         </classes>
     </test>
+
+
 </suite>

@@ -8,9 +8,9 @@
     <parameter name="os" value="mac"></parameter>
 
 
-    <test name="cartButton Test">
-        <classes>
-            <class name=""></class>
-        </classes>
-    </test>
+<!--    <test name="cartButton Test">-->
+<!--        <classes>-->
+<!--            <class name=""></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>
